@@ -56,3 +56,16 @@ local mythicPet = {"OG Sakuralord", "Willow Chandelier", "Amethyst", "White Swan
 local shinymythicPet = {"OG Sakuralord", "Willow Chandelier", "Darkness Creature", "Amethyst", "White Swan", "Parasite", "Soul of Plant", "Midas", "Dragon Plushie", "Magmas", "Star Charm", "Overseer", "Nebula", "Pixel Hydra", "Infernal", "Patronus", "Elite Soul", "Jackpot", "Captain's Curse", "Stained Star", "Glyph Warrior", "Chest Mimic", "Wilted Branch", "Starlight", "Broken TV", "Excabot", "ROUND", "Manarium", "Sigma Serpent", "DOOF", "Fire Guardian", "The Sun", "Seraphic Bruh", "Seraph", "The Shocklord", "Super Beach Boi", "Tiger's Eye", "Cardinal Bunny", "Holy Egg", "Chocolate Bunny", "D.I.Y Robot", "Fossil Ghost", "Guardian of Light", "Crystal Teddy", "Carrot Pufferfish", "Bongo Kitty", "Bruhodle", "Capybara Plushie", "Noctis", "Rigby", "Starry Kitsune", "Runic Defender", "Dreamscape", "Dowominus", "Toilet Doggy", "Galaxium", "ROUND BRUH", "Dominus Astra", "Pearl Goddess", "Jawbreaker Elemental", "Patriotic Soul", "Geometric Dominus", "Tole Cat", "King Pufferfish", "Celestial Bruh", "Seraphic Bruh", "King Seahorse", "Axolotl Plushie", "Ethereal Bunny", "Rainbow Marshmellow", "Moonlight", "Crescent Empress", "Ophanim", "Nebula", "Dark Jellyfish", "Sea Urchin", "Pond Queen", "Sailboat", "Void Eclipse", "Dream Catcher", "Lunar Bloom", "Lamp Ghost", "Dreadful Dragon", "Hallowed Spirit", "Wyrm of Currents", "Mad Hatter", "Yin Yang", "Amalgamation", "Rooted Ratio", "Vectorlord", "Empyreus", "Cosmos", "Classic Dowodle", "Classic Beta TV", "Demon Tree", "Dowodle Pumpkin", "Jack O' Doggy", "Eternal Pumpkin", "Lovely Rose", "Autumn Dragon", "Test Tube", "Demon Knight", "Captain Monkey", "Uncle Cat", "Bubble Beast", "Voodoo Dowodle", "Nightmare Jester", "Tainter Spirit", "Witch Rigby", "Poltergeist", "Classic Pumpkin", "Starlight Catcher", "Shadow Friend", "Moon Deer"
 
 }
+
+return {
+	trackedItems = trackedItems,
+	hatchChances = hatchChances,
+	secretNormal = secretNormal,
+	secretShiny = secretShiny,
+	secretMythic = secretMythic,
+	secretShinyMythic = secretShinyMythic,
+	normalPet = normalPet,
+	shinyPet = shinyPet,
+	mythicPet = mythicPet,
+	shinymythicPet = shinymythicPet
+}
