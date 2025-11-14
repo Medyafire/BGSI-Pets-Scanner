@@ -1,3 +1,13 @@
+-- SETTINGS FOR VARIOUS FUNCTIONS
+local miscellaneousSettings = {
+	["minForServerJoin"] = 2, -- In-script use: if server.playing >= Y
+	["minForWebhookSend"] = 0, -- In-script use: if #collectibles > Y
+	["mainLoopTaskWait"] = 0.25, -- Delay between each cycle
+	["tradeRequestDelay"] = 0.075, -- Delay between each trade request
+	["initialWait"] = 30, -- Initial cooldown
+	["postTradeWait"] = 10, -- Cooldown after one trade accepted
+}
+
 -- ITEMS / POWERUPS WE TRACK
 local trackedItems = {
 	["Season 1 Egg"] = 100,   -- Only send if >= 25
@@ -68,4 +78,5 @@ return {
 	shinyPet = shinyPet,
 	mythicPet = mythicPet,
 	shinymythicPet = shinymythicPet
+	miscellaneousSettings = miscellaneousSettings
 }
