@@ -37,7 +37,7 @@ local hatchChances = {
 	["Captain's Curse"] = { Chance = 5e-06, Egg = "Pirate Egg" },
 	["Overseer"] = { Chance = 1e-05, Egg = "Series 1 Egg" },
 	["Stained Star"] = { Chance = 0.0001, Egg = "Light Box" },
-	["Patronus"] = { Chance = 0.0001, Egg = "Golden Box" },
+	["Patronus"] = { Chance = 0.0001, Egg = "Golden Box" }
 	-- Add all your pets here
 }
 
@@ -78,5 +78,5 @@ return {
 	shinyPet = shinyPet,
 	mythicPet = mythicPet,
 	shinymythicPet = shinymythicPet,
-	miscellaneousSettings = miscellaneousSettings,
+	miscellaneousSettings = miscellaneousSettings
 }
