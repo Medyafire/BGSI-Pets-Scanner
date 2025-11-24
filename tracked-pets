@@ -24,6 +24,29 @@ local trackedItems = {
 	["Golden Box"] = 25,
 }
 
+-- PETS MINIMUM FOR WEBHOOK
+local petMinimumSettings = {
+	["Normal Lunar Deity"] = 10,
+	["Normal Solar Deity"] = 5,
+	["Normal Dusk"] = 10,
+	["Normal Dawn"] = 5,
+	["Normal Runic Master"] = 10,
+	["Normal Runic Prism"] = 5,
+	["Normal Honeycomb Blast"] = 10,
+	["Normal Beta TV"] = 3,
+	["Normal Infernus"] = 3,
+	["Normal Electra Hydra] = 3,
+	["Normal Dowodle"] = 3,
+	["Normal Mad Hatter"] = 3,
+	["Normal Wyrm of Currents"] = 3,
+	["Normal Shadow Friend"] = 3,
+	["Normal The Hand"] = 3,
+	["Normal Voodoo Dowodle"] = 3,
+	["Normal Dark Serpent"] = 3,
+	["Normal Starlight Catcher"] = 3,
+	["Shiny Ophanim"] = 2,
+}
+
 -- Pets chances (Scrapped for now)
 local hatchChances = {
 	["Seraph"] = { Chance = 0.0001, Egg = "Season 1 Egg" },
@@ -78,5 +101,6 @@ return {
 	shinyPet = shinyPet,
 	mythicPet = mythicPet,
 	shinymythicPet = shinymythicPet,
-	miscellaneousSettings = miscellaneousSettings
+	miscellaneousSettings = miscellaneousSettings,
+	petMinimumSettings = petMinimumSettings
 }
