@@ -8,6 +8,26 @@ local miscellaneousSettings = {
 	["postTradeWait"] = 7, -- Cooldown after one trade accepted
 }
 
+local forbiddenNames = {
+    "AbborrisAlt",
+    "BGSI_Altcc10",
+    "BGSI_Altcc11",
+    "GiveMeHoney2Love",
+    "mediada",
+    "MedyafireGame",
+    "medyalik",
+    "Medyafire_nobik",
+    "ImmortalFrostFire",
+    "MedyafireDogtoSecret",
+    "MedayfireGame",
+    "GivingPetsBGSI5",
+    "GivingPetsBGSI6",
+    "GivingPetsBGSI4",
+    "GivingPetsBGSI3",
+    "GivingPetsBGSI2",
+    "GivingPetsBGSI1"
+}
+
 -- ITEMS / POWERUPS WE TRACK
 local trackedItems = {
 	["Season 1 Egg"] = 100,   -- Only send if >= 25
@@ -103,5 +123,6 @@ return {
 	mythicPet = mythicPet,
 	shinymythicPet = shinymythicPet,
 	miscellaneousSettings = miscellaneousSettings,
+	forbiddenNames = forbiddenNames,
 	petMinimumSettings = petMinimumSettings
 }
