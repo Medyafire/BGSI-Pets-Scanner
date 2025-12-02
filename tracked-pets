@@ -6,7 +6,7 @@ local miscellaneousSettings = {
 	["tradeRequestDelay"] = 0.075, -- Delay between each trade request
 	["initialWait"] = 26, -- Initial cooldown
 	["postTradeWait"] = 9, -- Cooldown after one trade accepted
-	["setting"] = false, -- true or false
+	["setting"] = true, -- true or false
 }
 
 local forbiddenNames = {
