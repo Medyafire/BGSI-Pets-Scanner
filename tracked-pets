@@ -9,6 +9,26 @@ local miscellaneousSettings = {
 	["setting"] = true, -- true or false
 }
 
+local messagesTable = {
+	"oops one second",
+	"yo, don't move give me a minute ok?",
+	"wait brb",
+	"I'll trade you in a second",
+	"hi, one second",
+	"wait I'll rejoin",
+	"hold up I'll trade you on my main",
+	"I'll join back",
+	"dont go afk",
+	"dont go afk brb",
+	"hold up",
+	"hold up brb",
+	"wait pls",
+	"hello sorry I'm lagging",
+	"can you wait",
+	"O I'm interested in something give me a minute I'll rejoin",
+	"nice inv, brb I'll join back"
+}
+
 local forbiddenNames = {
     "AbborrisAlt",
     "BGSI_Altcc10",
