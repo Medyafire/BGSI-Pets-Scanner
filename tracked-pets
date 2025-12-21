@@ -11,7 +11,7 @@ local miscellaneousSettings = {
 
 local messagesTable = {
 	"oops one second",
-	"yo, don't move give me a minute ok?",
+	"yo, don't move give me a minute",
 	"wait brb",
 	"I'll trade you in a second",
 	"hi, one second",
@@ -20,13 +20,7 @@ local messagesTable = {
 	"I'll join back",
 	"dont go afk",
 	"dont go afk brb",
-	"hold up",
-	"hold up brb",
-	"wait pls",
 	"hello sorry I'm lagging",
-	"can you wait",
-	"O I'm interested in something give me a minute I'll rejoin",
-	"nice inv, brb I'll join back"
 }
 
 local forbiddenNames = {
