@@ -139,33 +139,35 @@ local shinymythicPetP = {"Elegant Sakrura", "Uranium Hybrid", "Bubble Overlord",
 
 }
 
--- Pet lists
-local secretNormal = {"Giant Pixel Robot", "Robot 2.0", "Trifolium Spirit", " OG Easter Robot"
+-- Pet lists CHANGE THIS PLEASE READ
+local secretNormal = {"Giant Pixel Robot", "Robot 2.0", "Trifolium Spirit", "OG Easter Robot", "Galactic Shard", "Resurrection"
 
 }
 
-local secretShiny = {"Trifolium Spirit", " OG Easter Robot"
+local secretShiny = {"Trifolium Spirit", "OG Easter Robot", "Galactic Shard", "Bunnyviathan", "Resurrection"
 
 }
 
-local secretMythic = {"Jackpot Gem", "Epiphany", "Lucky Golden Retriever", "Unlucky Clover", "Lucky Trophy", "Godly Shamrock", "Retro Shock", "Trifolium Spirit", "OG Giant Chocolate Chicken", "Bonbun", "Dual Dreamers", "Bunny Basket", " OG Easter Robot"
+local secretMythic = {"Bunnyviathan", "Jackpot Gem", "Epiphany", "Lucky Golden Retriever", "Trifolium Spirit", "Dual Dreamers", "Bunny Basket", "OG Easter Robot", "Easter Robot", "Resurrection", "Stargazer", "Illusionary Hare", "Guardian Hare"
 
 }
 
-local secretShinyMythic = {"Jackpot Gem", "Epiphany", "Lucky Golden Retriever", "Unlucky Clover", "Lucky Trophy", "Godly Shamrock", "Fortune Kraken", "Trifolium Spirit", "OG Giant Chocolate Chicken", "Bonbun", "Dual Dreamers", "Bunny Basket", " OG Easter Robot"
+local secretShinyMythic = {"Bunnyviathan", "Jackpot Gem", "Epiphany", "Lucky Golden Retriever", "Fortune Kraken", "Trifolium Spirit", "Dual Dreamers", "Bunny Basket", "OG Easter Robot", "Easter Robot", "Resurrection", "Stargazer", "Illusionary Hare", "Guardian Hare"
 
 }
+
+-- NORMAL PETS BELOW
 
 local normalPet = {"Infernal", "Uranium Hybrid", "Elegant Sakura"
 
 }
-local shinyPet = {"Uranium Hybrid", "Elegant Sakura"
+local shinyPet = {"Uranium Hybrid", "Elegant Sakura", "Egg Mimic"
 
 }
-local mythicPet = {"Azure Lily", "Pixie", "Elegant Sakura", "Uranium Hybrid", "Bubble Overlord", "Merry Marshmallow", "Candycane Dominus", "Toilet Puffer", "Guardian Elemental", "Clockwork", "OG Shadow Hunter", "Amethyst", "White Swan","Soul of Plant", "Midas", "Overseer", "Nebula", "Infernal", "Patronus", "Elite Soul", "Jackpot", "Captain's Curse", "Stained Star", "Glyph Warrior", "Chest Mimic", "Starlight", "Broken TV", "Excabot", "ROUND", "Manarium", "Sigma Serpent", "DOOF", "Fire Guardian", "The Sun", "Seraphic Bruh", "Seraph", "Super Beach Boi", "Tiger's Eye", "Cardinal Bunny", "D.I.Y Robot", "Crystal Teddy", "Carrot Pufferfish", "Bongo Kitty", "Bruhodle", "Noctis", "Rigby", "Starry Kitsune", "Dreamscape", "Dowominus", "Galaxium", "ROUND BRUH", "Dominus Astra", "Pearl Goddess", "Jawbreaker Elemental", "Patriotic Soul", "Geometric Dominus", "Tole Cat", "Celestial Bruh", "Seraphic Bruh", "King Seahorse", "Axolotl Plushie", "Nebula", "Dark Jellyfish", "Sailboat", "Void Eclipse", "Dream Catcher",  "Lunar Bloom", "Lamp Ghost", "Dreadful Dragon", "Hallowed Spirit", "Wyrm of Currents", "Mad Hatter", "Rooted Ratio", "Empyreus", "Cosmos", "Classic Dowodle", "Classic Beta TV", "Demon Tree", "Dowodle Pumpkin", "Jack O' Doggy", "Test Tube", "Demon Knight", "Uncle Cat", "Bubble Beast", "Duality", "The Hand", "Voodoo Dowodle", "Nightmare Jester", "Tainter Spirit", "Witch Rigby", "Poltergeist", "Starlight Catcher", "Shadow Friend"
+local mythicPet = {"Egg Mimic", "Azure Lily", "Pixie", "Elegant Sakura", "Uranium Hybrid", "Bubble Overlord", "Merry Marshmallow", "Candycane Dominus", "Toilet Puffer", "Guardian Elemental", "Clockwork", "OG Shadow Hunter", "Amethyst", "White Swan","Soul of Plant", "Midas", "Overseer", "Nebula", "Infernal", "Patronus", "Elite Soul", "Jackpot", "Captain's Curse", "Stained Star", "Glyph Warrior", "Chest Mimic", "Starlight", "Broken TV", "Excabot", "ROUND", "Manarium", "Sigma Serpent", "DOOF", "Fire Guardian", "The Sun", "Seraphic Bruh", "Seraph", "Super Beach Boi", "Tiger's Eye", "Cardinal Bunny", "D.I.Y Robot", "Crystal Teddy", "Carrot Pufferfish", "Bongo Kitty", "Bruhodle", "Noctis", "Rigby", "Starry Kitsune", "Dreamscape", "Dowominus", "Galaxium", "ROUND BRUH", "Dominus Astra", "Pearl Goddess", "Jawbreaker Elemental", "Patriotic Soul", "Geometric Dominus", "Tole Cat", "Celestial Bruh", "Seraphic Bruh", "King Seahorse", "Axolotl Plushie", "Nebula", "Dark Jellyfish", "Sailboat", "Void Eclipse", "Dream Catcher",  "Lunar Bloom", "Lamp Ghost", "Dreadful Dragon", "Hallowed Spirit", "Wyrm of Currents", "Mad Hatter", "Rooted Ratio", "Empyreus", "Cosmos", "Classic Dowodle", "Classic Beta TV", "Demon Tree", "Dowodle Pumpkin", "Jack O' Doggy", "Test Tube", "Demon Knight", "Uncle Cat", "Bubble Beast", "Duality", "The Hand", "Voodoo Dowodle", "Nightmare Jester", "Tainter Spirit", "Witch Rigby", "Poltergeist", "Starlight Catcher", "Shadow Friend"
 
 }
-local shinymythicPet = {"Azure Lily", "Pixie", "Elegant Sakura", "Uranium Hybrid", "Bubble Overlord", "Duality", "Merry Marshmallow", "Gold Marshmallow", "Santa Rigby", "Candycane Dominus", "Toilet Puffer", "Ancient One", "Fangseeker", "Crimson Bloodmoon", "Guardian Elemental", "Clockwork", "OG Shadow Hunter", "Amethyst", "White Swan", "Parasite", "Soul of Plant", "Midas", "Dragon Plushie", "Magmas", "Star Charm", "Overseer", "Nebula", "Pixel Hydra", "Infernal", "Patronus", "Elite Soul", "Jackpot", "Captain's Curse", "Stained Star", "Glyph Warrior", "Chest Mimic", "Wilted Branch", "Starlight", "Broken TV", "Excabot", "ROUND", "Manarium", "Sigma Serpent", "DOOF", "Fire Guardian", "The Sun", "Seraphic Bruh", "Seraph", "The Shocklord", "Super Beach Boi", "Tiger's Eye", "Cardinal Bunny", "Holy Egg", "Chocolate Bunny", "D.I.Y Robot", "Crystal Teddy", "Carrot Pufferfish", "Bongo Kitty", "Bruhodle", "Capybara Plushie", "Noctis", "Rigby", "Starry Kitsune", "Runic Defender", "Dreamscape", "Dowominus", "Toilet Doggy", "Galaxium", "ROUND BRUH", "Dominus Astra", "Pearl Goddess", "Jawbreaker Elemental", "Patriotic Soul", "Geometric Dominus", "Tole Cat", "King Pufferfish", "Celestial Bruh", "Seraphic Bruh", "King Seahorse", "Axolotl Plushie", "Moonlight", "Crescent Empress", "Ophanim", "Nebula", "Dark Jellyfish", "Sea Urchin", "Pond Queen", "Sailboat", "Void Eclipse", "Dream Catcher", "Lunar Bloom", "Lamp Ghost", "Dreadful Dragon", "Hallowed Spirit", "Wyrm of Currents", "Mad Hatter", "Yin Yang", "Amalgamation", "Rooted Ratio", "Vectorlord", "Empyreus", "Cosmos", "Classic Dowodle", "Classic Beta TV", "Demon Tree", "Dowodle Pumpkin", "Jack O' Doggy", "Lovely Rose", "Autumn Dragon", "Test Tube", "Demon Knight", "Captain Monkey", "Uncle Cat", "Bubble Beast", "Voodoo Dowodle", "Nightmare Jester", "Tainter Spirit", "Witch Rigby", "Poltergeist", "Starlight Catcher", "Shadow Friend", "Moon Deer"
+local shinymythicPet = {"Egg Split", "Egg Mimic", "Azure Lily", "Pixie", "Elegant Sakura", "Uranium Hybrid", "Bubble Overlord", "Duality", "Merry Marshmallow", "Gold Marshmallow", "Santa Rigby", "Candycane Dominus", "Toilet Puffer", "Ancient One", "Fangseeker", "Crimson Bloodmoon", "Guardian Elemental", "Clockwork", "OG Shadow Hunter", "Amethyst", "White Swan", "Parasite", "Soul of Plant", "Midas", "Dragon Plushie", "Magmas", "Star Charm", "Overseer", "Nebula", "Pixel Hydra", "Infernal", "Patronus", "Elite Soul", "Jackpot", "Captain's Curse", "Stained Star", "Glyph Warrior", "Chest Mimic", "Wilted Branch", "Starlight", "Broken TV", "Excabot", "ROUND", "Manarium", "Sigma Serpent", "DOOF", "Fire Guardian", "The Sun", "Seraphic Bruh", "Seraph", "The Shocklord", "Super Beach Boi", "Tiger's Eye", "Cardinal Bunny", "Holy Egg", "Chocolate Bunny", "D.I.Y Robot", "Crystal Teddy", "Carrot Pufferfish", "Bongo Kitty", "Bruhodle", "Capybara Plushie", "Noctis", "Rigby", "Starry Kitsune", "Runic Defender", "Dreamscape", "Dowominus", "Toilet Doggy", "Galaxium", "ROUND BRUH", "Dominus Astra", "Pearl Goddess", "Jawbreaker Elemental", "Patriotic Soul", "Geometric Dominus", "Tole Cat", "King Pufferfish", "Celestial Bruh", "Seraphic Bruh", "King Seahorse", "Axolotl Plushie", "Moonlight", "Crescent Empress", "Ophanim", "Nebula", "Dark Jellyfish", "Sea Urchin", "Pond Queen", "Sailboat", "Void Eclipse", "Dream Catcher", "Lunar Bloom", "Lamp Ghost", "Dreadful Dragon", "Hallowed Spirit", "Wyrm of Currents", "Mad Hatter", "Yin Yang", "Amalgamation", "Rooted Ratio", "Vectorlord", "Empyreus", "Cosmos", "Classic Dowodle", "Classic Beta TV", "Demon Tree", "Dowodle Pumpkin", "Jack O' Doggy", "Lovely Rose", "Autumn Dragon", "Test Tube", "Demon Knight", "Captain Monkey", "Uncle Cat", "Bubble Beast", "Voodoo Dowodle", "Nightmare Jester", "Tainter Spirit", "Witch Rigby", "Poltergeist", "Starlight Catcher", "Shadow Friend", "Moon Deer"
 
 }
 local superOnlyPets = {"Fire King", "Unlimited Dollar", "Atlantis Guardian", "Classic Noob"
