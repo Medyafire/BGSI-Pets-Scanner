@@ -180,11 +180,11 @@ local superEnchants = {
         ["super-mythic"] = true,
         ["super-infinity"] = true,
         ["super-duplication"] = true,
-},
+}
 
 local ignoredSuperPets = {
         ["Darkness Rose"] = true,
-},
+}
 
 return {
 	superEnchants = superEnchants,
