@@ -186,7 +186,6 @@ local superEnchants = {
 }
 
 local ignoredSuperPets = {
-        ["Darkness Rose"] = true,
 }
 
 return {
