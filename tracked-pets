@@ -111,7 +111,7 @@ local hatchChances = {
 }
 
 -- Pinged List
-local secretNormalP = {"Giant Pixel Robot", "OG Easter Robot", "Galactic Shard", "Resurrection", "The Beginning"
+local secretNormalP = {"Giant Pixel Robot"
 
 }
 
@@ -143,19 +143,19 @@ local shinymythicPetP = {"Egg Split", "Egg Mimic", "Azure Lily", "Pixie", "Elega
 }
 
 -- Pet lists CHANGE THIS PLEASE READ
-local secretNormal = {"Giant Pixel Robot", "OG Easter Robot", "Galactic Shard", "Resurrection", "The Beginning"
+local secretNormal = {"Giant Pixel Robot"
 
 }
 
-local secretShiny = {"Trifolium Spirit", "OG Easter Robot", "Galactic Shard", "Bunnyviathan", "Resurrection", "The Beginning"
+local secretShiny = {
 
 }
 
-local secretMythic = {"Bunnyviathan", "Jackpot Gem", "Epiphany", "Lucky Golden Retriever", "Trifolium Spirit", "Bunny Basket", "OG Easter Robot", "Easter Robot", "Resurrection", "Stargazer", "Illusionary Hare", "Guardian Hare", "The Beginning", "The First Sentinel", "Daydream"
+local secretMythic = {"Bunnyviathan", "Jackpot Gem", "Epiphany", "Trifolium Spirit", "Illusionary Hare", "Guardian Hare", "The Beginning"
 
 }
 
-local secretShinyMythic = {"Bunnyviathan", "Jackpot Gem", "Trifolium Spirit", "Bunny Basket", "OG Easter Robot", "Easter Robot", "Resurrection", "Stargazer", "Illusionary Hare", "Guardian Hare", "The Beginning", "The First Sentinel", "Daydream"
+local secretShinyMythic = {"Bunnyviathan", "Jackpot Gem", "Trifolium Spirit", "Bunny Basket", "OG Easter Robot", "Illusionary Hare", "Guardian Hare"
 
 }
 
