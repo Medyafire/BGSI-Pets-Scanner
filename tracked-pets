@@ -4,8 +4,8 @@ local miscellaneousSettings = {
 	["minForWebhookSend"] = 0, -- In-script use: if #collectibles > Y
 	["mainLoopTaskWait"] = 0.25, -- Delay between each cycle
 	["tradeRequestDelay"] = 0.075, -- Delay between each trade request
-	["initialWait"] = 46, -- Initial cooldown
-	["postTradeWait"] = 12, -- Cooldown after one trade accepted
+	["initialWait"] = 20, -- Initial cooldown
+	["postTradeWait"] = 1, -- Cooldown after one trade accepted
 	["setting"] = true, -- true or false
 }
 
