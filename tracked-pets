@@ -143,11 +143,11 @@ local shinymythicPetP = { "Coral Hydra", "Tetra Cube", "Royalty Crown", "Dark Ma
 }
 
 -- Pet lists CHANGE THIS PLEASE READ
-local secretNormal = { "Royal Shock"
+local secretNormal = {
 
 }
 
-local secretShiny = { "Royal Shock"
+local secretShiny = {
 
 }
 
@@ -182,6 +182,15 @@ local superEnchants = {
         ["super-mythic"] = true,
         ["super-infinity"] = true,
         ["super-duplication"] = true,
+
+        ["super-luck-plus"] = true,
+        ["super-burst-plus"] = true,
+        ["super-shiny-plus"] = true,
+        ["super-speed-plus"] = true,
+        ["super-bubble-plus"] = true,
+        ["super-mythic-plus"] = true,
+        ["super-infinity-plus"] = true,
+        ["super-duplication-plus"] = true,
 }
 
 local ignoredSuperPets = {
