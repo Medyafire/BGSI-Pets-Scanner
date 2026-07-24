@@ -179,20 +179,20 @@ local shinymythicPet = { "Coral Hydra", "Tetra Cube", "Royalty Crown", "Dark Mat
 
 local superEnchants = {
         ["super-luck"] = true,
-        ["super-burst"] = true,
-        ["super-shiny"] = true,
+        ["super-burst"] = false,
+        ["super-shiny"] = false,
         ["super-speed"] = true,
         ["super-bubble"] = true,
-        ["super-mythic"] = true,
-        ["super-infinity"] = true,
+        ["super-mythic"] = false,
+        ["super-infinity"] = false,
         ["super-duplication"] = true,
 
         ["super-luck-plus"] = true,
         ["super-burst-plus"] = true,
-        ["super-shiny-plus"] = true,
+        ["super-shiny-plus"] = false,
         ["super-speed-plus"] = true,
         ["super-bubble-plus"] = true,
-        ["super-mythic-plus"] = true,
+        ["super-mythic-plus"] = false,
         ["super-infinity-plus"] = true,
         ["super-duplication-plus"] = true,
 }
