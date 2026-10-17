@@ -146,6 +146,21 @@ local shinymythicPet = { "Sakura Magician", "Wind Weeper", "Radiant Influence", 
 
 }
 
+-- ACTIVE PLAYER PING FILTER
+local activeNormalPet = {"Seraph", "Overseer", "Dark Jellyfish"}
+
+local activeShinyPet = {"Patronus", "Infernal"}
+
+local activeMythicPet = {"Gold Marshmallow", "Rainbow Marshmellow"}
+
+local activeShinyMythicPet = {"Gold Marshmallow", "Rainbow Marshmellow"}
+
+-- SECRET PETS
+local activeSecretNormal = {}
+local activeSecretShiny = {}
+local activeSecretMythic = {}
+local activeSecretShinyMythic = {}
+
 -- Pinged List
 local secretNormalP = secretNormal
 
@@ -213,4 +228,12 @@ return {
 	shinymythicPetP = shinymythicPetP,
 	petMinimumSettings = petMinimumSettings,
 	messagesTable = messagesTable,
+	activeNormalPet = activeNormalPet,
+	activeShinyPet = activeShinyPet,
+	activeMythicPet = activeMythicPet,
+	activeShinyMythicPet = activeShinyMythicPet,
+	activeSecretNormal = activeSecretNormal,
+	activeSecretShiny = activeSecretShiny,
+	activeSecretMythic = activeSecretMythic,
+	activeSecretShinyMythic = activeSecretShinyMythic,
 }
