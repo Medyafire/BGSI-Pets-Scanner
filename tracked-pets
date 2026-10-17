@@ -115,7 +115,7 @@ local hatchChances = {
 }
 
 -- Pet lists CHANGE THIS PLEASE READ
-local secretNormal = { "Godly Gem", "Dementor", "Spring Moth", "Dementor Tophat", "Giant Pixel Robot", "Radiance", "Giant Robot", "Leviathan", "Silly Leviathan", "Lucid Leaf"
+local secretNormal = {
 
 }
 
@@ -147,16 +147,16 @@ local shinymythicPet = { "Sakura Magician", "Wind Weeper", "Radiant Influence", 
 }
 
 -- ACTIVE PLAYER PING FILTER
-local activeNormalPet = {"Seraph", "Overseer", "Dark Jellyfish"}
+local activeNormalPet = {"Seraph", "Overseer", "Dark Jellyfish", "Glyph Warrior"}
 
-local activeShinyPet = {"Patronus", "Infernal"}
+local activeShinyPet = {"Seraph", "Overseer", "Dark Jellyfish", "Glyph Warrior"}
 
 local activeMythicPet = {"Gold Marshmallow", "Rainbow Marshmellow"}
 
-local activeShinyMythicPet = {"Gold Marshmallow", "Rainbow Marshmellow"}
+local activeShinyMythicPet = {"Gold Marshmallow", "Rainbow Marshmellow", "Ethereal Bunny"}
 
 -- SECRET PETS
-local activeSecretNormal = {}
+local activeSecretNormal = {"Godly Gem", "Dementor", "Spring Moth", "Dementor Tophat", "Giant Pixel Robot", "Radiance", "Giant Robot", "Leviathan", "Silly Leviathan", "Lucid Leaf"}
 local activeSecretShiny = {}
 local activeSecretMythic = {}
 local activeSecretShinyMythic = {}
