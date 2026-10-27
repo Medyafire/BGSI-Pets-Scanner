@@ -147,13 +147,13 @@ local shinymythicPet = { "Sakura Magician", "Wind Weeper", "Radiant Influence", 
 }
 
 -- ACTIVE PLAYER PING FILTER
-local activeNormalPet = {"Seraph", "Overseer", "Dark Jellyfish", "Glyph Warrior"}
+local activeNormalPet = {}
 
-local activeShinyPet = {"Seraph", "Overseer", "Dark Jellyfish", "Glyph Warrior"}
+local activeShinyPet = {}
 
-local activeMythicPet = {"Runic Defender", "Gold Marshmallow", "Rainbow Marshmellow"}
+local activeMythicPet = {}
 
-local activeShinyMythicPet = {"Gold Marshmallow", "Rainbow Marshmellow", "Ethereal Bunny"}
+local activeShinyMythicPet = {}
 
 -- SECRET PETS
 local activeSecretNormal = {}
